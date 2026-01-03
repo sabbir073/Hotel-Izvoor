@@ -1,0 +1,54 @@
+{
+  "name": "hotel-du-theatre",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^7.0.2",
+    "basic-ftp": "^5.0.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.1",
+    "next": "^15.5.4",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
+    "puppeteer": "^24.24.0",
+    "react": "^19.0.0",
+    "react-datepicker": "^7.5.0",
+    "react-dom": "^19.0.0",
+    "react-google-recaptcha-v3": "^1.11.0",
+    "react-icons": "^5.4.0",
+    "sharp": "^0.34.4",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.0",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5"
+  }
+}
